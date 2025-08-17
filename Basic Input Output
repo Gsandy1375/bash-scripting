@@ -13,3 +13,6 @@ echo "Today's date is: $(date)"
 
 # This shows the current directory
 echo "You are currently in: $(pwd)
+
+# This echos an exit code to determine whether the previous command was successful
+echo$?
