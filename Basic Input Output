@@ -1,0 +1,15 @@
+# This is the shebang itself and the absolute path to the Bash shell interpreter 
+#!/bash/bin
+
+# This asks for the user's name
+echo "Enter your name:"
+read name
+
+# This prints a greeting
+echo "Hello, $name! Welcome to the script."
+
+# This shows today's date and time
+echo "Today's date is: $(date)"
+
+# This shows the current directory
+echo "You are currently in: $(pwd)
