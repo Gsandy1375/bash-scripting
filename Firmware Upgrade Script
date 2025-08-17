@@ -1,3 +1,6 @@
 # This is the shebang and the absolute path to the Bash shell interpreter 
 #!/bash/bin
 
+# This logs the firmware upgrade in a file to log the data
+# This assumes that a file named "firmware_upgrade.log" exists
+LOG_File="/var/log/firmware_upgrade.log"
