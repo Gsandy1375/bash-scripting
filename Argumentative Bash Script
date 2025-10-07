@@ -1,0 +1,7 @@
+
+
+echo "What is your name?"
+
+read name
+
+echo "wow, $name sounds like a punk"
