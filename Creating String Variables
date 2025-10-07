@@ -1,0 +1,14 @@
+# This is the shebang and the absolute path to the Bash shell interpreter 
+#!/bash/bin
+
+# This will tell us which bash interpreter we are using
+/bin/bash
+
+$ This creates a variabe
+STRING="Null Byte"
+
+# This displays text and the variable 
+echo "Hackers enjoy learning $STRING"
+
+# This shows the effective username of the current user
+echo $(whoami)
