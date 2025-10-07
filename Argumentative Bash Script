@@ -1,7 +1,11 @@
+# This is the shebang and the absolute path to the Bash shell interpreter 
+#!/bash/bin
 
-
+# This displays a questions to the current user
 echo "What is your name?"
 
+# This reads the name that the user inputs
 read name
 
+# This uses the inputted name into the display along with a few sentences
 echo "wow, $name sounds like a punk"
