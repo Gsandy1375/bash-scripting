@@ -1,0 +1,8 @@
+# This is the shebang and the absolute path to the Bash shell interpreter 
+#!/bash/bin
+
+# This will tell us which bash interpreter we are using
+/bin/bash
+
+STRING="Null Byte"
+echo "Hackers love to learn on $STRING"
