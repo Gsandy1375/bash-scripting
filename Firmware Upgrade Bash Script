@@ -1,5 +1,5 @@
 # This is the shebang and the absolute path to the Bash shell interpreter 
-#!/bash/bin
+#!/bin/bash
 
 # This logs the firmware upgrade in a file to log the data
 # This assumes that a file named "firmware_upgrade.log" exists
