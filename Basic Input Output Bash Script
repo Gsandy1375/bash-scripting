@@ -3,6 +3,8 @@
 
 # This asks for the user's name
 echo "Enter your name:"
+
+# This reads the name that the user inputs
 read name
 
 # This prints a greeting
