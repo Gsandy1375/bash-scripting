@@ -1,5 +1,5 @@
 # This is the shebang and the absolute path to the Bash shell interpreter 
-#!/bash/bin
+#!/bin/bash
 
 # This will tell us which bash interpreter we are using
 /bin/bash
