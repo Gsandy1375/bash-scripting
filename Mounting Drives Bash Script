@@ -1,12 +1,17 @@
 # This is the shebang and the absolute path to the Bash shell interpreter 
 #!/bin/bash
 
-sudo mkdir /data
+# This creates the directory
+sudo mkdir -p /data
 
-shdo chown =R :writers/data
+# This changes the group ownership recursively to allow for writes to get access to the data
+sudo chown -R :writers/data
 
+#
 sudo chmod -R g+w /data
 
+#
 lsblk
 
+#
 sudp mount /dev/sdb /data
