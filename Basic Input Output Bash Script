@@ -1,5 +1,5 @@
 # This is the shebang and the absolute path to the Bash shell interpreter 
-#!/bash/bin
+#!/bin/bash
 
 # This asks for the user's name
 echo "Enter your name:"
